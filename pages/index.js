@@ -7,7 +7,6 @@ function HomePage() {
 
     return (
         <Fragment>
-            <h1>The Home Page</h1>
             <EventList items={featuredEvents}/>
         </Fragment>
     );
